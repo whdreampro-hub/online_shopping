@@ -1,0 +1,45 @@
+ body {
+  font-family: Arial;
+  background: #f4f4f4;
+  padding: 20px;
+}
+
+h2, h3 {
+  text-align: center;
+}
+
+.product-div {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.product {
+  background: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+form {
+  width: 400px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+input, button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+button {
+  background: #4facfe;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
