@@ -19,14 +19,9 @@
         <div class="form">
             <form action="signup.php" method="post">
                 <h4>Signup Form don't have an account</h4>
-                <input type="text" name="username" placeholder="enter your username"><br>
-                <input type="email" name="email" placeholder="enter email"><br>
-                <input type="password" name="password" placeholder="enter password"><br>
-                <select name="role">
-                    <option></option>
-                    <option>User</option>
-                    <option>Admin</option>
-                </select>
+                <input type="text" name="username" placeholder="enter your username" maxlength="50" required><br>
+                <input type="email" name="email" placeholder="enter email" maxlength="254" required><br>
+                <input type="password" name="password" placeholder="enter password" minlength="12" maxlength="72" required><br>
                 <button type="submit" name="signup" title="submit data">Sign Up</button>
             </form>
             <br>
