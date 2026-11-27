@@ -1,0 +1,14 @@
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# User-uploaded content (keep only the directory placeholder)
+uploads/*
+!uploads/.gitkeep
+
+# Local tooling and generated files
+node_modules/
+vendor/
+*.log
+.DS_Store
